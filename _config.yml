@@ -1,28 +1,40 @@
-name: vivelatarte
-favicon: null
-layout_spectrum: 0.3456669698935002
-typography_spectrum: 0.2804943018127233
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.2831541
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
+  saturation: 0.9252420137636364
   brandStrength: 0.2768020227085799
   lightness: 0.680804108036682
-  saturation: 0.9252420137636364
-  rhythmicContrast: 0.11905425856821239
-purpose: []
+  brandColors:
+    - '#CFD0CF'
+    - '#928780'
+    - '#040404'
+    - '#B36E20'
+    - '#5C3817'
+  rhythmicContrast: 0.1190542585682124
+typography_spectrum: 0.2804943018127233
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: vivelatarte
