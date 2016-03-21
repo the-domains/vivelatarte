@@ -1,4 +1,4 @@
-layout_spectrum: 0.2831541
+name: vivelatarte
 opengraph:
   image: null
   type: null
@@ -9,25 +9,25 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
   saturation: 0.9252420137636364
   brandStrength: 0.2768020227085799
   lightness: 0.680804108036682
   brandColors:
-    - '#CFD0CF'
-    - '#928780'
-    - '#040404'
-    - '#B36E20'
-    - '#5C3817'
+    - '#F3F3F3'
+    - '#49A2B2'
+    - '#DEBF49'
+    - '#F27D97'
+    - '#F15B29'
   rhythmicContrast: 0.1190542585682124
-typography_spectrum: 0.2804943018127233
+typography_spectrum: 0.3261649
 cta:
   bucket: null
   version: null
@@ -37,4 +37,4 @@ analytics:
   google: null
   facebook: null
 favicon: null
-name: vivelatarte
+layout_spectrum: 0.2831541
